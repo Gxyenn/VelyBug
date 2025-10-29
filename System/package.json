@@ -1,0 +1,49 @@
+{
+  "name": "vely-bug",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^1.27.0",
+    "dotenv": "^17.2.3",
+    "mongodb": "^6.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lotusbail": "latest",
+    "axios": "^1.6.8",
+    "adm-zip": "^0.5.12",
+    "tar": "^6.2.1",
+    "fs-extra": "^11.2.0",
+    "chalk": "^4.1.2",
+    "moment-timezone": "latest",
+    "pino": "^9.5.0",
+    "telegraf": "^4.16.3",
+    "express": "^4.18.2",
+    "cookie-parser": "^1.4.6",
+    "body-parser": "^1.20.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node api/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@types/express": "^4.17.21",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/body-parser": "^1.19.5",
+    "@types/fs-extra": "^11.0.4",
+    "@types/adm-zip": "^0.5.5",
+    "@types/tar": "^6.1.11",
+    "@vercel/node": "^5.5.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.8"
+  }
+}

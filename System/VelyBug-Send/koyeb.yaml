@@ -1,0 +1,23 @@
+name: velybug-send
+services:
+  - name: web
+    git:
+      branch: main
+      repository: Gxyenn/VelyBug-Send
+    instance_type: free
+    ports:
+      - port: 8080
+        protocol: HTTP
+    health_checks:
+      - path: "/"
+        port: 8080
+        protocol: HTTP
+    env:
+      - key: BOT_TOKEN
+        value: "8137964608:AAE6Yo4wWCcb7h3oUA2KcV-GxEn4vkZlbpE"
+      - key: OWNER_ID
+        value: "-1003283150801"
+      - key: MONGO_URI
+        value: "mongodb+srv://gxyenndev_db_user:EsALd5vduVSoClso@cluster0.rnrudep.mongodb.net/VelyBug-Send?retryWrites=true&w=majority"
+      - key: PORT
+        value: "8080"

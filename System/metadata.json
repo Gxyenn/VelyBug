@@ -1,0 +1,5 @@
+{
+  "name": "Vely Bug",
+  "description": "Vely Bug is a web-based portal for sending custom commands to a Telegram bot, controlled by a key-based access system with Admin and User roles.",
+  "requestFramePermissions": []
+}
