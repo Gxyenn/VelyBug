@@ -28,6 +28,8 @@ const OWNER_ID = process.env.OWNER_ID;
 const bot = new Telegraf(BOT_TOKEN);
 const port = process.env.PORT || 3000;
 const app = express();
+const cors = require('cors');
+app.use(cors());
 
 // ==================== GLOBAL VARIABLES ==================== //
 const sessions = new Map();
